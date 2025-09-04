@@ -26,12 +26,6 @@ const Hero = () => {
                 >
                   شروع کنید
                 </Link>
-                <Link
-                  href="https://kashef.ir"
-                  className="rounded-lg border-2 border-primary px-8 py-3 text-lg font-semibold text-primary transition-all duration-300 hover:bg-primary/10 dark:text-white dark:hover:bg-white/10"
-                >
-                  درباره ما
-                </Link>
               </div>
             </div>
           </div>
