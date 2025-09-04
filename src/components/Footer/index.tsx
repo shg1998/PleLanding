@@ -66,76 +66,12 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  پیوندهای مرتبط
-                </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="https://kashef.ir"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      شرکت امن الکترونیکی کاشف
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://www.nicholding.ir/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      شرکت ملی انفورماتیک
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://cbi.ir/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      بانک مرکزی ج.ا.ا
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  پیوندهای مرتبط
-                </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="https://kashef.ir"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      شرکت امن الکترونیکی کاشف
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://www.nicholding.ir/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      شرکت ملی انفورماتیک
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://cbi.ir/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      بانک مرکزی ج.ا.ا
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          </div>
+          <div className="mt-12 border-t border-gray-200 dark:border-gray-700 pt-6 text-center">
+              <p className="text-sm text-body-color dark:text-body-color-dark">
+                © {new Date().getFullYear()} تمامی حقوق این سامانه متعلق به{" "}
+              <Link href={"https://kashef.ir"} className="font-semibold text-primary">شرکت کاشف</Link> می‌باشد.
+            </p>
           </div>
         </div>
       </footer>

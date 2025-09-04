@@ -10,7 +10,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "درباره ما",
-    path: "/about",
+    path: "/",
     newTab: false,
   },
   // {
@@ -22,7 +22,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "ارتباط با ما",
-    path: "/contact",
+    path: "/",
     newTab: false,
   },
   // {

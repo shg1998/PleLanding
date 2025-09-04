@@ -21,13 +21,13 @@ const Hero = () => {
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
                 <Link
-                  href="/signup"
+                  href="http://172.24.18.221/register"
                   className="rounded-lg bg-primary px-8 py-3 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-primary/90 hover:shadow-xl"
                 >
                   شروع کنید
                 </Link>
                 <Link
-                  href="/about"
+                  href="https://kashef.ir"
                   className="rounded-lg border-2 border-primary px-8 py-3 text-lg font-semibold text-primary transition-all duration-300 hover:bg-primary/10 dark:text-white dark:hover:bg-white/10"
                 >
                   درباره ما
