@@ -21,7 +21,7 @@ const Hero = () => {
               </p>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
                 <Link
-                  href="http://172.24.18.221/register"
+                  href="/register"
                   className="rounded-lg bg-primary px-8 py-3 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-primary/90 hover:shadow-xl"
                 >
                   شروع کنید

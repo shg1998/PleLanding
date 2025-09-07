@@ -85,13 +85,13 @@ const Header = () => {
 
             <div className="flex items-center justify-end pr-16 lg:pr-0">
               <Link
-                  href="http://172.24.18.221/login"
+                  href="/login"
                   className="text-dark hidden px-7 py-3 text-base font-medium hover:opacity-70 md:block dark:text-white"
                 >
                   ورود
               </Link>
               <Link
-                href="http://172.24.18.221/register"
+                href="/register"
                 className="ease-in-up shadow-btn hover:shadow-btn-hover bg-primary hover:bg-primary/90 hidden rounded-sm px-6 py-2.5 text-base font-medium text-white transition duration-300 md:block md:px-7"
               >
                 ثبت نام
